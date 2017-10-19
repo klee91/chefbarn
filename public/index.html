@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content=" width=device-width, initial-scale=1.0">
+        <meta name="description" content="Cafe + Restaurant sit-in/takeout in Edgewater, NJ Eggs / Chicken and Waffles / Korean Fried Chicken / Breakfast / Coffee / Korean Cuisine ">
+        <title>Chef Barn</title>
+        <!-- jQuery CDN -->
+        <script
+        src="http://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+        <!-- Bootstrap Core CSS -->
+        <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+        <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/bootstrap/bootstrap-reboot.min.css">
+        <link rel="stylesheet" href="./css/bootstrap/bootstrap-grid.min.css">
+        <!-- AOS CSS -->
+        <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+        <!-- Personal Style CSS -->
+        <link rel="stylesheet" href="./css/style.css">
+        <!-- Font Awesome  -->
+        <link rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.min.css">
+        <!-- Site Logo -->
+        <link rel="icon" href="./css/img/logo.gif">
+        <!-- Fonts  -->
+        <!-- <link href="https://fonts.googleapis.com/css?family=Rouge+Script" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:800|Lato|Quicksand|Rouge+Script" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-toggleable-sm navbar-inverse bg-faded" id="navbar">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" 
+            style="color:black; height:50px; cursor:pointer">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-brand" id="brand"><img class="img-responsive" src="./css/img/logo.png" /></div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav" id="navList">
+                    <li class="nav-item navLinks">
+                        <a class="nav-link" id="homeBtn" href="#jumbotron"><b>HOME</b></a>
+                    </li>
+                    <li class="nav-item navLinks">
+                        <a class="nav-link" id="aboutBtn" href="#about"><b>ABOUT</b></a>
+                    </li>
+                    <li class="nav-item navLinks">
+                        <a class="nav-link" id="menuBtn" href="#menu"><b>MENU</b></a>
+                    </li>
+                    <li class="nav-item navLinks">
+                        <a class="nav-link" id="locationBtn" href="#location"><b>LOCATION</b></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Grid Layout  -->
+        <div id="grid">
+<!-- ----------------------------------------------------------------------------------------- -->
+            <!-- jumbotron -->
+            <div id="jumbotron">
+
+                <h3 data-aos="fade-up" data-aos-once="true" class="text-center">Welcome to</h3>
+                <br/>
+                <h1 data-aos="fade-up" data-aos-once="true" class="text-center">THE CHEF BARN</h1>
+            </div>
+<!-- ----------------------------------------------------------------------------------------- -->
+            <!-- About -->
+            <section id="about" data-aos="fade-up" data-aos-once="true">
+                <h1 class="text-center header" data-aos="fade-up" data-aos-once="true"><b>ABOUT</b></h1>
+                <p data-aos="fade-up" data-aos-once="true">This is 'The Chef Barn'! (also known as The Coffee Barn) We are a local 
+                    cafe/restaurant that serves quality coffee along with quality food. We specialize in Korean cuisine, and are also known
+                    for our fried chicken. Our pastries are sourced locally from <a href="http://www.balthazarbakery.com/" target="_blank">Balthazar Bakery</a> 
+                    and our coffee is sourced from <a href="https://www.lacolombe.com/" target="_blank">La Colombe Coffee</a>. 
+                    We also offer both Delivery & Takeout! Check us out at our location in Edgewater, NJ!
+                </p>
+            </section>
+<!-- ----------------------------------------------------------------------------------------- -->            
+            <!-- Chicken + Eggs Popular -->
+            <section id="popular">
+                <div>
+                    <img data-aos="zoom-up"id="collage" class="img-responsive" src="./css/img/chefbarn.png" alt="Chef Barn Collage"/>
+                </div>
+                <div id="popularTxt" data-aos="zoom-right" data-aos-once="true">
+                    <p class="text-center subheader">Try our <b style="color:#D1670D">Chicken</b> or <b style="color:#D1670D">Eggs in Hell</b></p>
+                    <!-- <p class="text-center" style="font-size: 20px;"><b>Try our Chicken or Eggs in Hell!</b></p> -->
+                    <p class="text-center" style='margin-left: auto; margin-right: auto; width: 85%; font-size: 21px;'>
+                        Our two most popular items. The fried chicken is made fresh, tender and delicious daily, and the 'Eggs in Hell' 
+                        are one our recommended specialties.   
+                    </p>
+                </div>
+            </section>
+<!-- ----------------------------------------------------------------------------------------- -->  
+            <section class="col-xs-12" id="delOrTakeout" >
+                <h3 data-aos="flip-down" data-aos-once="true">
+                    *We provide both Delivery and Takeout! Call us at (201)-224-2656.
+                </h3>
+                <img id="logoBike" src="./css/img/logo_wbike.png" data-aos="fade-left" data-aos="slide-left" data-aos-anchor-placement="top-center" data-aos-once="true"/>
+            </section>
+<!-- ----------------------------------------------------------------------------------------- -->
+            <!-- Menu -->
+            <section id="menu">
+                    <h1 class="text-center header" data-aos="fade-up"  data-aos-once="true"> MENU </h1>
+                    <p class="text-center" data-aos="fade-up"  data-aos-once="true"> *  -  recommended</p>
+                <!-- Menu Wrapper 1 -->
+                <div id="wrapper1">
+                    <!-- Omelettes Section-->
+                    <div class="menu-section col-xs-12 col-md-6 col-lg-4" id="omelettes" data-aos="fade-up"  data-aos-once="true">
+                            <h2 class="menu-title">Omelettes</h2>
+                            <div class="menu-items">
+                                <div class="item">
+                                    <h5>Veggie Omelette</h5>
+                                        <p class="item-description">tomato, mushrooms, pepper onions and spinach</p>
+                                        <p class="price">8.99</p>
+                                </div>
+                                <div class="item">
+                                    <h5>Ham Omelette</h5>
+                                        <p class="item-description">ham, pepper, onions, mushrooms and spinach</p>
+                                        <p class="price">9.99</p>
+                                </div>
+                                <div class="item">
+                                    <h5>Bacon Omelette</h5>
+                                        <p class="item-description">bacon, pepper, onions, mushrooms and spinach</p>
+                                        <p class="price">9.99</p>
+                                </div>
+                            </div>
+                    </div>
+                    <!-- Waffles -->
+                    <div class="menu-section col-xs-12 col-md-6 col-lg-4" id="waffles" data-aos="fade-up"  data-aos-once="true">
+                            <h2 class="menu-title">Waffles</h2>
+                            <div class="menu-items">
+                                <div class="item">
+                                    <h5>Chicken & Waffles *</h5>
+                                        <p class="item-description">belgian waffle w/ breaded chicken, maple bacon, guacamole and ranch dressing</p>
+                                        <p class="price">12.45</p>
+                                </div>
+                                <div class="item">
+                                    <h5>Fruits Waffles</h5>
+                                        <p class="item-description">belgian waffle w/ seasonal fruits</p>
+                                        <p class="price">7.95</p>
+                                </div>
+                            </div>
+                    </div>
+                    <!-- Eggs in Hell -->
+                    <div class="menu-section col-xs-12 col-lg-4" id="chefsSpecials" data-aos="fade-up"  data-aos-once="true">
+                        <h2 class="menu-title">Chef's Specials</h2>
+                        <div class="menu-items">
+                            <div class="item">
+                                <h5>Eggs in Hell *</h5>
+                                    <p class="item-description">two over easy eggs, sausage and cheese served in a spicy tomato sauce</p>
+                                    <p class="price">13.99</p>
+                            </div>
+                            <div class="item">
+                                <h5>Eggs Down Under *</h5>
+                                    <p class="item-description">two over easy eggs, seafood in a spicy tomato sauce</p>
+                                    <p class="price">19.99</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <!-- Sandwiches -->
+                    <div class="menu-section col-xs-12" id="sandwiches" data-aos="fade-up"  data-aos-once="true">
+                            <h2 class="menu-title">Sandwiches</h2>
+                            <div class="menu-items">
+                                <div class="item">
+                                    <h5>B.L.T</h5>
+                                        <p class="item-description">bacon, lettuce, tomato and choice of bread</p>
+                                        <p class="price">4.75</p>
+                                </div>
+                                <div class="item">
+                                    <h5>Egg Sandwich</h5>
+                                        <p class="item-description">build your own using any of the available options at an extra charge</p>
+                                        <p class="price">2.99</p>
+                                </div>
+                                <div class="item">
+                                    <h5>CB's Sandwich</h5>
+                                        <p class="item-description">egg, sliced carrots & cabbage and choice of bread</p>
+                                        <p class="price">4.99</p>
+                                </div>
+                            </div>
+                            <p class="text-center">~ sandwich options ~</p>
+                            <div  class="col-xs-12" id="sandwichOptions" data-aos="fade-up"  data-aos-once="true">
+                                    <div>
+                                        <p class="text-center textOnBorder" style="width: 75px;">Meat</p>
+                                        <p style="padding:0 1em">
+                                            Bacon, Ham, Sausage, Turkey
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <p class="text-center textOnBorder" style="width: 75px;">Cheese</p>
+                                        <p style="padding:0 1em">
+                                            Cheddar, Swiss, Gouda, Havarti, Monterey Jack
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <p class="text-center textOnBorder" style="width: 105px;">Vegetables</p>
+                                        <p style="padding:0 1em">
+                                            Avocado, Tomatoes, Mushrooms, Peppers, Onions, Spinach
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <p class="text-center textOnBorder" style="width: 75px;">Breads</p>
+                                        <p style="padding:0 1em">
+                                            White, Wheat, Croissant
+                                        </p>
+                                    </div>
+                                </div>
+                    </div>
+                    <!-- Quick Meals -->
+                    <div class="menu-section col-xs-12" id="quickmeals" data-aos="fade-up"  data-aos-once="true">
+                            <h2 class="menu-title">Quick Meals</h2>
+                            <div class="menu-items">
+                                <div class="item">
+                                    <h5>Spicy Rice Cake</h5>
+                                        <p class="price">10.99</p>
+
+                                    <!-- Vertical Line  -->
+                                    <div class="verticalLine">
+                                        <p style="padding-left: 15px;">cheese or ramen or starch noodle</p>
+                                        <p class="price" style="text-indent:15px;">2.00 each</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <h5>Fried Dumplings</h5>
+                                        <p class="price">5 pcs / 4.99</p>
+                                        <p class="price">10 pcs / 8.99</p>
+                                </div>
+                            </div>
+                    </div>
+                    <!-- Burritos -->
+                    <div class="menu-section col-xs-12" id="burritos" data-aos="fade-up"  data-aos-once="true">
+                            <h2 class="menu-title">Burritos</h2>
+                            <div class="menu-items">
+                                <div class="item">
+                                    <h5 style="clear: both">Spicy Pork / Bulgogi / Chicken Teriyaki / Spicy Chicken</h5>
+                                    <p class="price">7.99</p>
+                                </div>
+                            </div>
+                    </div>
+                    <!-- Noodles  -->
+                    <div class="menu-section col-xs-6" id="noodles" data-aos="fade-up"  data-aos-once="true">
+                            <h2 class="menu-title">Noodles</h2>
+                            <div class="menu-items">
+                                <div class="item">
+                                    <h5>Starch Noodles w/ Mixed Veggies & Korean Spicy Sauce</h5>
+                                        <p class="price">9.99</p>
+                                </div>
+                                <div class="item">
+                                    <h5>Bulgogi w/ Noodles</h5>
+                                        <p class="price">12.99</p>
+                                </div>
+                                <div class="item">
+                                    <h5>Fried Udon</h5>
+                                        <p class="price">9.99</p>
+                                </div>
+                                <div class="item">
+                                    <h5>Korean Style Ramen</h5>
+                                        <p class="price">7.99</p>
+                                </div>
+                                <div class="item">
+                                    <h5>Korean Style Ramen w/ Dumpling</h5>
+                                        <p class="price">10.99</p>
+                                </div>
+                            </div>
+                    </div>
+                    <!-- Semi Section -->
+                    <div id="semi">
+                    <!-- Rice Dishes  -->
+                    <div class="menu-section" id="rice" data-aos="fade-up"  data-aos-once="true">
+                            <h2 class="menu-title">Rice Dishes</h2>
+                            <div class="menu-items">
+                                <div class="col-xs-5">
+                                    <div class="item">
+                                        <h5>Bulgogi w/ Rice</h5>
+                                            <p class="price">12.99</p>
+                                    </div>
+                                    <div class="item">
+                                        <h5>Spicy Pork w/ Rice</h5>
+                                            <p class="price">12.99</p>
+                                    </div>
+                                    <div class="item">
+                                        <h5>Chicken Teriyaki w/ Rice</h5>
+                                            <p class="price">12.99</p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-5">
+                                    <div class="item">
+                                        <h5>Egg Over Fried Rice</h5>
+                                            <p class="price">12.99</p>
+                                    </div>
+                                    <div class="item">
+                                        <h5>Pork Cutlet</h5>
+                                            <p class="price">13.99</p>
+                                    </div>
+                                    <div class="item">
+                                        <h5>Chicken Cutlet</h5>
+                                            <p class="price">13.99</p>
+                                    </div>
+                                    <div class="item">
+                                        <h5>Kimchi Fried Rice</h5>
+                                            <p class="price">11.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <!-- Soup  -->
+                    <div class="menu-section" id="soup" data-aos="fade-up"  data-aos-once="true">
+                        <h2 class="menu-title">Soup</h2>
+                        <div class="menu-items">
+                            <div class="item">
+                                <h5 style="text-align: left">Dumpling Soup</h5>
+                                    <p class="price" style="text-align: left">10.99</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- End Semi Section -->
+                    <!-- Special Chicken  -->
+                    <div class="menu-section col-xs-12" id="specialChicken" data-aos="fade-up"  data-aos-once="true">
+                            <h2 class="menu-title">Special Chicken *</h2>
+                            <div class="menu-items">
+                                <div id="chickenOptions">
+                                    <div class="specialChickenDiv">
+                                        <div class="circle text-center">1.</div>
+                                        <h5 style="color:#91191E; padding-top: 7px;"><b>CHOOSE ONE</b></h5>
+                                    </div>
+                                    <div>
+                                        <div class="item col-xs-6">
+                                            <h3 >Whole Chicken</h3>
+                                                <p class="price">24.99</p>
+                                        </div>
+                                        <div class="item col-xs-6">
+
+                                            <h3>Wings Only</h3>
+                                                <p class="price">10 pcs / 10.99</p>
+                                                <p class="price">20pcs / 19.99</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="sauceOptions">
+                                    <div class="specialChickenDiv">
+                                        <div class="circle text-center">2.</div>
+                                        <h5 style="color:#91191E; padding-top: 7px;"><b>CHOOSE SAUCE</b></h5>
+                                    </div>
+                                    <div>
+                                        <div class="col-xs-3"><h5>Fried</h5></div>
+                                        <div class="col-xs-3"><h5>Soy Garlic</h5></div>
+                                        <div class="col-xs-3"><h5>Spicy</h5></div>
+                                        <div class="col-xs-3"><h5>Crazy Spicy</h5></div>
+                                        <p>*Extra Sauce  / 1.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+            </section>
+<!-- ----------------------------------------------------------------------------------------- -->
+            <!-- Location -->
+            <section id="location" data-aos="fade-up" data-aos-once="true">
+                <h1 class="text-center header"><b>LOCATION</b></h1>
+                <div id="locationInfo" class="col-lg-10 col-lg-offset-1">
+                    <div class="locationPic col-xs-12 col-md-8">
+                        <img src="./css/img/coffeebarn.jpg" class="img-responsive"/>
+                    </div>
+                    <div class="col-xs-12 col-md-4"  id="hours">
+                        <!-- Address -->
+                        <div id="address">
+                            <h4><b>Address:</b></h4>
+                            <p>10 Dempsey Ave Edgewater, NJ 07020</p>
+                            <p>Phone: (201)-224-2656</p>
+                        </div>
+                        <!-- Hours -->
+                        <div>
+                            <h4 class="col-xs-12"><b>Hours:</b></h4>
+                            <div id="time">
+                                <ul class="col-xs-4" id="days">
+                                    <li>Mon</li>
+                                    <li>Tues</li>
+                                    <li>Wed</li>
+                                    <li>Thurs</li>
+                                    <li>Fri</li>
+                                    <li>Sat</li>
+                                    <li>Sun</li>
+                                </ul>
+                                <ul class="col-xs-5" style="margin-left: 20px;">
+                                    <li>8:00AM - 10:00PM</li>
+                                    <li>8:00AM - 11:00PM</li>
+                                    <li>8:00AM - 11:00PM</li>
+                                    <li>8:00AM - 11:00PM</li>
+                                    <li>8:00AM - 11:00PM</li>
+                                    <li>8:00AM - 11:00PM</li>
+                                    <li>7:00AM - 8:00PM</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Google Map Location -->
+                <div id="map" data-aos="fade-up" data-aos-once="true">
+                </div>
+            </section>
+<!-- ----------------------------------------------------------------------------------------- -->
+            <!-- Instagram Gallery-->
+            <section id="gallery" data-aos="fade-up" data-aos-once="true">
+                <p class="text-center subheader" style="margin-top: 1.5em;">GALLERY</p>
+                <!-- LightWidget WIDGET -->
+                <iframe src="//lightwidget.com/widgets/4df69180229f56e4bb5a3b84571c9a0d.html" scrolling="no" allowtransparency="true" 
+                class="lightwidget-widget"></iframe>
+            </section>
+<!-- ----------------------------------------------------------------------------------------- -->
+            <!-- Footer -->
+            <footer id="footer">
+                
+                <!-- Social Media Links -->
+                <div id="social" >
+                    <p data-aos="fade-left">Follow Us:</p>
+                    <ul>
+                        <li data-aos="flip-left" data-aos-duration="2000" class="smBtn" ><a href="https://www.facebook.com/" target="_blank" alt="The Chef Barn - Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li data-aos="flip-left" data-aos-duration="2500" class="smBtn" ><a href="https://www.twitter.com/" target="_blank" alt="The Chef Barn - Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li data-aos="flip-left" data-aos-duration="3000" class="smBtn" ><a href="https://www.instagram.com/" target="_blank" alt="The Chef Barn - Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li data-aos="flip-left" data-aos-duration="3500" class="smBtn" ><a href="https://www.yelp.com/" target="_blank" alt="The Chef Barn - Yelp"><i class="fa fa-yelp" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    	<p data-aos="fade-up" class="text-center" style="margin-top:4em">&copy; Copyright 2017 The Chef Barn</p>
+                </div>
+            </footer>
+
+        </div>
+
+        
+    </body>
+<!-- Bootstrap Core JavaScript -->
+<script src="./javascript/bootstrap.min.js"></script>
+<script type="text/javascript">
+    //Navbar Collapse animation
+    $(document).ready(function() {
+        $(window).scroll(function() {
+            if($(document).scrollTop() > 50) {
+                $('#navbar').addClass('shrink');
+                $('.nav-link').addClass('btnShrink');
+            } else {
+                $('#navbar').removeClass('shrink');
+                $('.nav-link').removeClass('btnShrink');
+            }
+        })
+        $('.navbar-toggler').on('click', function() {
+            $('#navbar').addClass('shrink');
+            $('.nav-link').addClass('btnShrink');
+        })
+    })
+</script>
+<!-- AOS JS -->
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        easing: 'ease-out-back',
+        duration: 1000
+    })
+</script>
+<script src="//lightwidget.com/widgets/lightwidget.js"></script>
+<script>
+    function initMap() {
+        var coords = {lat: 40.8271454, lng: -73.9738824};
+        var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 11,
+        center: coords
+        });
+        var marker = new google.maps.Marker({
+        position: coords,
+        map: map
+        });
+    }
+</script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQdEv8kKiw1unxb1XZ5QWFd28vA5szYCg&callback=initMap">
+</script>
+
+</html>
