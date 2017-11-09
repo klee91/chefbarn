@@ -10,22 +10,6 @@ html {
     box-sizing: border-box;
 }
 
-/* #grid {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: 1fr;
-    grid-template-areas: 
-    "jumbotron jumbotron jumbotron jumbotron jumbotron jumbotron jumbotron jumbotron"
-    "about about about about about about about about"
-    "popular popular popular popular popular popular popular popular"
-    "delOrTakeout delOrTakeout delOrTakeout delOrTakeout delOrTakeout delOrTakeout delOrTakeout delOrTakeout"
-    "menu menu menu menu menu menu menu menu"
-    "location location location location location location location location"
-    "gallery gallery gallery gallery gallery gallery gallery gallery"
-    "footer footer footer footer footer footer footer footer";
-} */
-
-
 #navbar {
     /* display: flex; */
     /* justify-content: center; */
