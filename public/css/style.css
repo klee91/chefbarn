@@ -75,7 +75,7 @@ html {
 
 #jumbotron {
     color: white;
-    background-image: url(./img/chick.jpg);
+    background-image: url(./img/headbg.jpg);
     background-repeat: no-repeat;
     background-position: center; 
     background-size: cover;
@@ -167,16 +167,47 @@ html {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
+    align-items: baseline;
 }
 
 .item {
-    padding: 0em 2em;
+    /* display: flex; */
+    /* flex-flow: row nowrap; */
+    padding: 0.5em 1em;
+
 }
 
 .item > h5 {
     font-size: 19px;
 }
+.imageLink {
+    height: 60px;
+    width: 60px;
+    margin-bottom: 3%;
+    border-radius: 50%;
+    background: url('./img/chick.jpg');
+    background-size: cover;
+    background-position: center;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+     -ms-transition: all 0.5s ease;
+         transition: all 0.5s ease;
+}
+/* .imageLink img {
+    height: 60px;
+    width: 60px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+     -ms-transition: all 0.5s ease;
+         transition: all 0.5s ease;
+} */
 
+/* .imageLink img:hover {
+    height: 70px;
+    width: 70px;
+} */
 .item-description {
     font-size: 16px;
 }
@@ -184,20 +215,37 @@ html {
 #wrapper1 {
     display: flex;
     flex-flow: column nowrap;
+    justify-content: center;
     /* margin-left: auto;
     margin-right: auto;
     width: 85%; */
 }
 
+#wrapper2 {
+    display: flex;
+    flex-flow: column nowrap;
+    /* margin-left: auto;
+    margin-right: auto;
+    width: 85%; */
+}
+#days {
+    padding-left: 0em !important;
+}
 #semi {
     display: flex; 
     flex-flow: column nowrap;
     justify-content: center;
 }
 
+#omelettes {
+    justify-content: flex-start;
+}
+#chefsSpecials {
+    display: flex;
+    justify-content: flex-start;
+}
 #soup {
     padding: 0em 2em;
-    justify-content: flex-start;
 }
 
 .textOnBorder {
@@ -223,19 +271,32 @@ html {
 }
 
 #burritos > .menu-items > .item {
+    /* display: flex;
+    flex-flow: column wrap; */
+}
+
+#burritos > .menu-items > .item > h3{
+    padding: 0em 2em 0em 0em;
+}
+
+/* #sandwiches > .menu-items, #noodles > .menu-items {
+    align-items: baseline;
+} */
+
+#lunchSpecial > .menu-items > .item {
     display: flex;
     flex-flow: column wrap;
 }
 
-#burritos > .menu-items > .item > h3{
+#lunchSpecial > .menu-items > .item > h3{
     padding: 0em 2em 0em 0em;
 }
 .circle {
     display: inline-block;
     background-color: #91191E;
     border-radius: 50%;
-    width: 35px;
-    height: 35px;
+    min-width: 30px;
+    height: 30px;
     padding-top: 5px;
     margin-right: 7px;
 }
@@ -258,6 +319,9 @@ html {
     flex-flow: column nowrap;
 }
 
+#rice > .menu-items {
+    padding: 1em 2em;
+}
 #location {
     grid-area: location;
     height: auto;
@@ -290,6 +354,7 @@ html {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
+    padding-left: 3em;
 }
 
 #time {
@@ -299,6 +364,7 @@ html {
 
 #hours ul {
     list-style: none outside none;
+    padding-left: 1em;
 }
 
 #map {
@@ -447,6 +513,11 @@ html {
     #hours {
         flex-flow: row nowrap;
         justify-content: space-evenly;
+        align-items: baseline;
+        padding-left: 0em;
+    }
+    #hours ul {
+        padding-left: 0.5em;
     }
 }
 
@@ -457,11 +528,12 @@ html {
     #wrapper1 {
         flex-flow: row wrap;
     }
+
     #waffles {
         justify-content: flex-start;
     }
-    #rice {
-        padding: 1em 0em;
+    #rice > .menu-items {
+        padding: 1em 2em;
     }
     #semi {
         display: flex; 
@@ -486,6 +558,9 @@ html {
     }
     .subheader {
         font-size: 30px;
+    }
+    #hours ul {
+        padding-left: 1em;
     }
 }
 
@@ -576,13 +651,17 @@ html {
         padding: 0em 6em 2em;
         font-size: 21px;
     }
-    #chefsSpecials {
+    /* #chefsSpecials {
+        display: flex;
         justify-content: flex-start;
-    }
+    } */
     #sandwichOptions > div {
         height: 135px;
     }
-    #noodles > .menu-items {
+    #noodles > .menu-items, #burritos > .menu-items {
+        margin-left: 5em;
+    }
+    #beverages > .menu-items {
         margin-left: 5em;
     }
     #logoBike {
@@ -623,6 +702,9 @@ html {
 }
 @media screen and (min-width: 1700px) {
     #wrapper1 {
+        margin: 0em 6em;
+    }
+    #wrapper2 {
         margin: 0em 6em;
     }
     #omelettes > .menu-items{
