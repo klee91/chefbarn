@@ -120,7 +120,7 @@ html {
     color: white;
 }
 #delOrTakeout > h3 {
-    padding-top: 5%;
+    padding-top: 1%;
     padding-bottom: 5%;
     font-size: 19px;
     text-align: center;
@@ -180,6 +180,11 @@ html {
 .item > h5 {
     font-size: 19px;
 }
+
+.price {
+    margin-bottom: 0.5rem;
+}
+
 .imageLink{
     width: 65px;
     height: 65px;
@@ -194,20 +199,6 @@ html {
      -ms-transition: all 0.5s ease;
          transition: all 0.5s ease;
 }
-/* .imageLink img {
-    height: 60px;
-    width: 60px;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-      -o-transition: all 0.5s ease;
-     -ms-transition: all 0.5s ease;
-         transition: all 0.5s ease;
-} */
-
-/* .imageLink img:hover {
-    height: 70px;
-    width: 70px;
-} */
 .item-description {
     font-size: 16px;
 }
@@ -482,7 +473,9 @@ html {
     width: 100%;
 
 }
-
+#deliveryAvail {
+    text-align: center;
+}
 
 /* Media Queries */
 @media screen and (min-width: 0px) {
@@ -602,6 +595,9 @@ html {
         padding-left: 3%;
         text-align:left;
     }
+    #deliveryAvail {
+        margin-left: 27%;
+    }
     #logoBike {
         display: block;
         width: 9em;
@@ -641,6 +637,9 @@ html {
         font-size: 24px;
         padding-left: 0%;
         text-align:center;
+    } */
+    /* #deliveryAvail {
+        padding-left: 27%;
     } */
     #logoBike {
         width: 10em;
@@ -682,9 +681,15 @@ html {
     #delOrTakeout > h3 {
         padding-left: 10%;
     }
+    #deliveryAvail {
+        margin-left: 33%;
+    }
 }
 @media screen and (min-width: 1136px) {
     #delOrTakeout > h3 {
+        padding-left: 13%;
+    }
+    #deliveryAvail {
         padding-left: 13%;
     }
     #logoBike {
@@ -694,6 +699,10 @@ html {
 @media screen and (min-width: 1250px) {
     #delOrTakeout > h3 {
         padding-left: 0%;
+        text-align: center;
+    }
+    #deliveryAvail {
+        margin-left: 0%;
         text-align: center;
     }
     #logoBike {
