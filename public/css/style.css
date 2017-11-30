@@ -180,14 +180,14 @@ html {
 .item > h5 {
     font-size: 19px;
 }
-.imageLink {
-    height: 60px;
-    width: 60px;
+.imageLink{
+    width: 65px;
+    height: 65px;
     margin-bottom: 3%;
     border-radius: 50%;
-    background: url('./img/chick.jpg');
-    background-size: cover;
-    background-position: center;
+    border: solid 2.5px white;
+    background-size: cover !important;
+    background-position: center !important;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
       -o-transition: all 0.5s ease;
