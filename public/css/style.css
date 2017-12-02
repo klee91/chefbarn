@@ -13,8 +13,6 @@ html {
 }
 
 #navbar {
-    /* display: flex; */
-    /* justify-content: center; */
     position: fixed;
     width: 100%;
     background-color: transparent;
@@ -158,7 +156,6 @@ html {
 .menu-title {
     margin: 0.75em;
     font-weight: 700;
-    /* font-family: 'Arima Madurai', cursive; */
     font-family: 'Lato', sans-serif;
     font-size: 25px;
 }
@@ -171,8 +168,6 @@ html {
 }
 
 .item {
-    /* display: flex; */
-    /* flex-flow: row nowrap; */
     padding: 0.5em 1em;
 
 }
@@ -365,7 +360,6 @@ html {
 }
 
 #gallery {
-    grid-area: gallery;
     height: auto;
     background-color: #f2f2f2;
     display: flex;
@@ -386,7 +380,6 @@ html {
 }
 
 #footer {
-    grid-area: footer;
     background-color: #1B1B1B;
     height: 400px;
     color: #fff;
@@ -401,11 +394,6 @@ html {
     margin: 0;
     padding: 2em 0em;
     background-color: #222222;
-    /* border-bottom: solid 0.5px #9B9B9B; */
-}
-
-#social > p {
-    /* color: #fff; */
 }
 
 #social ul {
@@ -450,7 +438,6 @@ html {
 }
 
 #popular {
-    grid-area: popular;
     display: flex;
     flex-flow: column nowrap;
     height: auto;
@@ -616,7 +603,6 @@ html {
         flex-flow: row nowrap;
         margin-left: auto;
         margin-right: auto;
-        /* width: 80%; */
     }
     #hours {
         flex-flow: column nowrap;
@@ -633,14 +619,6 @@ html {
     }
 }
 @media screen and (min-width: 934px) {
-    /* #delOrTakeout > h3 {
-        font-size: 24px;
-        padding-left: 0%;
-        text-align:center;
-    } */
-    /* #deliveryAvail {
-        padding-left: 27%;
-    } */
     #logoBike {
         width: 10em;
     }
@@ -650,10 +628,6 @@ html {
         padding: 0em 6em 2em;
         font-size: 21px;
     }
-    /* #chefsSpecials {
-        display: flex;
-        justify-content: flex-start;
-    } */
     #sandwichOptions > div {
         height: 135px;
     }
