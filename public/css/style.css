@@ -11,7 +11,11 @@ html, body {
 html {
     box-sizing: border-box;
 }
-
+body {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
 #navbar {
     position: fixed;
     width: 100%;
