@@ -196,12 +196,6 @@ html {
     font-size: 16px;
 }
 
-#chefsSpecials, #waffles, #omelettes > .menu-items {
-    display: flex;
-    flex-flow: column wrap;
-    max-width: 100%;
-}
-
 #wrapper1 {
     display: flex;
     flex-flow: column nowrap;
@@ -293,10 +287,34 @@ html {
     display: flex;
     flex-flow: column nowrap;
 }
-
-#rice, #noodles > .menu-items {
+#chefsSpecials > .menu-items {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 100%;
     padding: 1em 2em;
 }
+#waffles > .menu-items {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 100%;
+    padding: 1em 2em;
+}
+#omelettes > .menu-items {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 100%;
+    padding: 1em 2em;
+}
+#rice > .menu-items {
+    padding: 1em 2em;
+}
+#noodles > .menu-items {
+    padding: 1em 2em;
+}
+#sandwiches > .menu-items {
+    padding: 1em 2em;
+}
+
 #location {
     height: auto;
     padding-bottom: 45px;
@@ -309,7 +327,6 @@ html {
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-items: center;
-    /* width: 80%; */
     margin-left: auto;
     margin-right: auto;
 }
@@ -499,9 +516,7 @@ html {
     #waffles {
         justify-content: flex-start;
     }
-    #rice, #noodles > .menu-items {
-        padding: 1em 2em;
-    }
+
     #semi {
         display: flex; 
         flex-flow: row nowrap;
@@ -571,6 +586,7 @@ html {
     }
     #deliveryAvail {
         margin-left: 27%;
+        padding: 25px 0px 5px 0px !important;
     }
     #logoBike {
         display: block;
@@ -644,6 +660,7 @@ html {
     }
     #deliveryAvail {
         margin-left: 33%;
+        padding: 35px 0px 5px 0px !important;
     }
 }
 @media screen and (min-width: 1136px) {
@@ -652,6 +669,7 @@ html {
     }
     #deliveryAvail {
         padding-left: 13%;
+        padding: 50px 0px 5px 0px !important;
     }
     #logoBike {
         right: 3em;
