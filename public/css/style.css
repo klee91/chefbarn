@@ -11,10 +11,6 @@ html, body {
 html {
     box-sizing: border-box;
 }
-body {
-    display: -webkit-flex;
-    display: flex;
-}
 #navbar {
     position: fixed;
     width: 100%;
@@ -135,7 +131,6 @@ body {
 
 #menu {
     color: white;
-    grid-area: menu;
     padding-bottom: 45px;
     height: auto;
     background-color: #D1670D;
@@ -204,23 +199,18 @@ body {
 #chefsSpecials, #waffles, #omelettes > .menu-items {
     display: flex;
     flex-flow: column wrap;
+    max-width: 100%;
 }
 
 #wrapper1 {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    /* margin-left: auto;
-    margin-right: auto;
-    width: 85%; */
 }
 
 #wrapper2 {
     display: flex;
     flex-flow: column nowrap;
-    /* margin-left: auto;
-    margin-right: auto;
-    width: 85%; */
 }
 #days {
     padding-left: 0em !important;
@@ -264,18 +254,9 @@ body {
     border-left: thick solid white;
 }
 
-#burritos > .menu-items > .item {
-    /* display: flex;
-    flex-flow: column wrap; */
-}
-
 #burritos > .menu-items > .item > h3{
     padding: 0em 2em 0em 0em;
 }
-
-/* #sandwiches > .menu-items, #noodles > .menu-items {
-    align-items: baseline;
-} */
 
 #lunchSpecial > .menu-items > .item {
     display: flex;
@@ -317,7 +298,6 @@ body {
     padding: 1em 2em;
 }
 #location {
-    grid-area: location;
     height: auto;
     padding-bottom: 45px;
     background-color: white;
@@ -335,7 +315,6 @@ body {
 }
 
 .locationPic img {
-    /* height: 13em; */
     width: 100%;
     padding: 5%;
 }
