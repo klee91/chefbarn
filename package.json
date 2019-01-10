@@ -4,7 +4,8 @@
   "description": "Public website for cafe/restaurant \"Chef Barn\".",
   "main": "index.js",
   "scripts": {
-    "test": "echo \\\"Error: no test specified\\\" && exit 1\""
+    "test": "echo \\\"Error: no test specified\\\" && exit 1\"",
+    "deploy": "gh-pages -d public"
   },
   "repository": {
     "type": "git",
@@ -15,10 +16,10 @@
   "bugs": {
     "url": "https://github.com/klee91/chefbarn/issues"
   },
-  "homepage": "https://github.com/klee91/chefbarn#readme",
+  "homepage": "https://klee91.github.io/chefbarn",
   "dependencies": {
-    "body-parser": "^1.17.2",
-    "cookie-parser": "^1.4.3",
-    "express": "^4.15.4"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "gh-pages": "^2.0.1"
   }
 }
